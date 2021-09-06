@@ -1,17 +1,20 @@
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
-import Button from './components/button/Button';
+// import { useState } from 'react';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 function App() {
+
+
   return (
     <div className="App">
       
       <header>
 
         <NavBar/>
-        <br></br>
-        <Button/>
+        <ItemListContainer/>
 
+      
       </header>
 
     </div>

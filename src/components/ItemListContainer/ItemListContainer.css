@@ -1,0 +1,25 @@
+.btn{
+    background-color: rgba(90, 247, 90, 0.829);
+    color: rgb(49, 61, 49);
+}
+.img{
+    width: 10%;
+    height:auto;
+    margin: auto;
+    display: inline-table;
+    border-radius: 3px;
+
+}
+header {
+    background: #dddcca;
+    color: rgb(235, 240, 241);
+}
+
+.Backimg{
+    background: rgb(179, 78, 179);
+    width: 100%;
+}
+div.card-body{
+    background: #d4d3bf;
+    border:2px solid #ffffff;
+}

@@ -1,0 +1,40 @@
+.containerNav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5vw 2.5vw;
+    font-size: 1.5vw;
+    background-color: #4d282896;
+    color: white;
+  }
+  .navbar-right{
+    width: 35%;
+    /* display: flex; */
+    align-items: center;
+  }
+  .containerNav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5vw 2.5vw;
+    font-size: 1.5vw;
+    background-color: #636251f1;
+    color: white;
+  }
+  .linksNav{
+    display: flex;
+    align-items: center;
+  }
+  .linksNav a{
+    text-decoration: none;
+    color: gray;
+    margin-right: 10px;
+  }
+  .imgLogo{
+    width: 150px;
+    height: 65px;
+    display: auto;
+    position: absolute;  
+  }
