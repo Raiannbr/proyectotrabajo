@@ -3,17 +3,18 @@ import { useState } from 'react';
 import imgAli from '../../img/alianza.jpg'
 
 
-const ItemListContainer = ()=>{
+const ItemListContainer = (props)=>{
+  // console.log("props de container",props)
 
     const [count, setCount] = useState(0)
-    console.log(count)
-    console.log(setCount)
+    // console.log(count)
+    // console.log(setCount)
   
-    const stock = 10;
+    // const stock = 5;
   
     const sumar = ()=>{
-      if(count === stock){
-          console.log("llegaste al tope")
+      if(count === props.stockmax){
+          // console.log("llegaste al tope")
         // <h1>llegaste al tope</h1>
       }else{
         setCount(count + 1)
@@ -24,7 +25,7 @@ const ItemListContainer = ()=>{
   
     const restar = ()=>{
       if(count<= 0){
-        console.log("no hago nada")
+        // console.log("no hago nada")
       }else{
         setCount(count - 1)
       }
