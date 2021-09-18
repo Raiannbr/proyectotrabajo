@@ -12,7 +12,7 @@ function App() {
       <header>
 
         <NavBar/>
-        <ItemListContainer stockmax = {5} />
+        <ItemListContainer/>
 
       
       </header>
