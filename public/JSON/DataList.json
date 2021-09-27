@@ -1,0 +1,30 @@
+[
+
+    {
+        "id":1,
+        "image":"https://external.feze12-1.fna.fbcdn.net/safe_image.php?d=AQFFEQvVQvdzW7Er&w=476&h=476&url=https%3A%2F%2Fscontent.cdninstagram.com%2Fv%2Ft51.29350-15%2F167582117_198470128407493_8240179681306122256_n.jpg%3F_nc_cat%3D105%26ccb%3D1-5%26_nc_sid%3D8ae9d6%26_nc_eui2%3DAeGJVQcen-St0Sk7csLWBKVD7ob5zQBmLKjuhvnNAGYsqLcuRyTs_fugcGxFpwaSAqA%26_nc_ohc%3D_Bro_NRv2mYAX8aYG8E%26tn%3D9D-60yK5fvsW8U_-%26_nc_ht%3Dscontent.cdninstagram.com%26oh%3Daf9a05e83315c779da2522b20015e900%26oe%3D6155249E&cfs=1&_nc_eui2=AeFgKiVnHKNa7A1x0hZlAcPLk8c8O6zWUA-Txzw7rNZQD1yJv52coiYP2gwj-Eb-Ngk&_nc_oe=6ebe7&_nc_sid=62b3ef&ccb=3-5&_nc_hash=AQFj--_FPeJ9fUIe",
+        "title":"Omelette",
+        "descripcion": "Omelette relleno",
+        "categoria":"Calientes",
+        "price": "280",
+        "stock": 5
+    },
+    {
+        "id":2,
+        "image":"https://external.feze12-1.fna.fbcdn.net/safe_image.php?d=AQEr8q0PXF6rUvpS&w=476&h=476&url=https%3A%2F%2Fscontent.cdninstagram.com%2Fv%2Ft51.29350-15%2F168105215_118847180293540_1712472737523998655_n.jpg%3F_nc_cat%3D107%26ccb%3D1-5%26_nc_sid%3D8ae9d6%26_nc_eui2%3DAeH1-BIcijRZQfIu3VlGsiXETZ40ZP_LZWNNnjRk_8tlY-pYBk3NsqYIyPbzfqMm9FU%26_nc_ohc%3DGsTDp_DlJ1IAX82cUZI%26_nc_ht%3Dscontent.cdninstagram.com%26oh%3D14d6dbd35adecb25df37770d86c73d70%26oe%3D6153C2C9&cfs=1&_nc_eui2=AeGSE8hljscpAE_mEdYwAhLLk-o0v2pQKsWT6jS_alAqxUxGb-JOqrBpJMgEbEk5rNg&_nc_oe=6ebe6&_nc_sid=62b3ef&ccb=3-5&_nc_hash=AQFUn7VG1WRmbMdP",
+        "title":"Muffins",
+        "descripcion": "Muffins marmolados",
+        "categoria":"Dulces",
+        "price": "300",
+        "stock": 5
+    },
+    {
+        "id":3,
+        "image":"https://scontent.feze12-1.fna.fbcdn.net/v/t1.6435-9/169452053_1912587182233774_5105006742547829704_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeEoWMgQgdmITYmCvgr4Z42oIfj_zTzoqw0h-P_NPOirDTmRF9Y5gLSWOQ5I5bJkLtw&_nc_ohc=I5pbqWkHi0MAX8CL38x&_nc_ht=scontent.feze12-1.fna&oh=e973e065f53e7bcd81b3e83974586a67&oe=6175410C",
+        "title":"Hambuerguesas",
+        "descripcion": "Pack de 4",
+        "categoria":"Congelados",
+        "price": "300",
+        "stock": 3
+    }
+]

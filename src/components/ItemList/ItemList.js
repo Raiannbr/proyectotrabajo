@@ -3,15 +3,17 @@ import Item from './Item'
 import ItemDetail from '../ItemDetail/ItemDetail'
 import Muffins from './imgItem/muffins.jpg'
 import Muffins1 from './imgItem/muffins1.jpg'
+import HamburguesaL from './imgItem/hamburguesas.jpg'
 
+
+const prodList = [{id: "1",name: "muffins especiales",description:"starwars",price:"200",images:Muffins,stock:"5",category:"dulces"},
+{id: "2",name: "muffins", description:"marmolado",price:"150",images:Muffins1,stock:"4",category:"dulces"},
+{id: "3",name: "hamburguesas", description:"lentejas",price:"250",images:HamburguesaL,stock:"6",category:"calientes"}]
 
 
 const ItemList =()=>{
     //estado de productos con lista de productos
-    const [prodTienda, setProdTienda] = useState([
-        {id: "1",name: "muffins especiales",description:"starwars",price:"200",images:Muffins,stock:"5"},
-        {id: "2",name: "muffins", description:"marmolado",price:"150",images:Muffins1,stock:"4"}
-    ])
+    const [prodTienda, setProdTienda] = useState(prodList)
 
     //Estado del carrito, el carrito esta en 0 de entrada
     const [detail, setDetail] = useState([])
