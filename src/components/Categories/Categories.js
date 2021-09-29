@@ -59,7 +59,7 @@ export default function Categories(){
             <h1> Categoria {CategoriaByID}</h1>
             {productsCategory.map(element =>{
                 return (
-                    <Link to={`/categoria/${element.id}`} >
+//                     <Link to={`/categoria/${element.id}`} >
                         <div id="card-container">
                             <div className="card-body" key={element.id}>
                             <img src= {element.images} width="180px" height="180px" alt=""/>
@@ -68,7 +68,7 @@ export default function Categories(){
                             <h3>$ {element.price} </h3>
                             </div>    
                         </div>
-                    </Link>
+//                     </Link>
                 )
             })}
         </div>
