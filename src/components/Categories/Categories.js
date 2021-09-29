@@ -5,13 +5,14 @@ import { Link } from "react-router-dom";
 import Muffins from '../ItemList/imgItem/muffins.jpg'
 import Muffins1 from '../ItemList/imgItem/muffins1.jpg'
 import HamburguesaL from '../ItemList/imgItem/hamburguesas.jpg'
+import Omelette from '../ItemList/imgItem/omelette.jfif'
 import Item from "../ItemList/Item";
 // import prodList from '../ItemList/ItemList'
 const prodList = 
 [{id: "1",name: "muffins especiales",description:"starwars",price:"200",images:Muffins,stock:"5",categoria:"dulces"},
 {id: "2",name: "muffins", description:"marmolado",price:"150",images:Muffins1,stock:"4",categoria:"dulces"},
-{id: "3",name: "hamburguesas", description:"lentejas",price:"250",images:HamburguesaL,stock:"6",categoria:"calientes"},
-{id: "4",name: "muffins especiales",description:"starwars",price:"200",images:Muffins,stock:"5",categoria:"congelados"}]
+{id: "3",name: "hamburguesas", description:"pack x4",price:"250",images:HamburguesaL,stock:"6",categoria:"congelados"},
+{id: "4",name: "omelette",description:"relleno",price:"300",images:Omelette,stock:"5",categoria:"calientes"}]
 
 
 
@@ -52,15 +53,21 @@ export default function Categories(){
             // console.log(CategoriaByID)
             
         // getCategory();
-
     return (
+        
         <div className='containerCategory'>
             <h1> Categoria {CategoriaByID}</h1>
             {productsCategory.map(element =>{
                 return (
                     <Link to={`/categoria/${element.id}`} >
-                        {/* <Item  /> */}
-                        <p>{element.categoria} </p>
+                        <div id="card-container">
+                            <div className="card-body" key={element.id}>
+                            <img src= {element.images} width="180px" height="180px" alt=""/>
+                            <h2>{element.name}</h2>
+                            <h3>{element.description} </h3>
+                            <h3>$ {element.price} </h3>
+                            </div>    
+                        </div>
                     </Link>
                 )
             })}

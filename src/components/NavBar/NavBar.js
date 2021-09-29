@@ -53,7 +53,7 @@ const NavBar = ()=>{
                       <DropdownToggle nav caret> Categorias</DropdownToggle>
                       <DropdownMenu right>
                               <Link to='/productos/categoria/dulces'><DropdownItem>Productos dulces</DropdownItem></Link>
-                              <Link to='/productos/categoria/congelados'><DropdownItem>Productos ongelados</DropdownItem></Link>
+                              <Link to='/productos/categoria/congelados'><DropdownItem>Productos Congelados</DropdownItem></Link>
                               <Link to='/productos/categoria/calientes'><DropdownItem>Platos calientes</DropdownItem></Link>
                       </DropdownMenu>
                     </UncontrolledDropdown>

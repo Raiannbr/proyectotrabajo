@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 
+// ( paso 2) sigo lo del item list pasandole las props antes declaradas
+
 //pasamos las props de itemlist
 const Item = ({prodSelect,detail,setDetail,prodTienda})=> {
-
     const [count,setCount] = useState(0)
     const sumar =()=>{
         if(count === parseInt(stock)){
