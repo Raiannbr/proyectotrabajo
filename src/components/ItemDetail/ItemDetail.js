@@ -8,7 +8,7 @@ const ItemDetail = ({detail, setDetail})=>{
         <div className="detail">
             <h1>Detalle</h1>
 
-                         {/* itero en el componente del cart, y cada iteración es un prodselect
+                         {/* itero en el componente del detail, y cada iteración es un prodselect
                          cada iteración es reendereizada en el componente itemdetail cada iteración tiene su id
                          NEcesito el detail en si, con todas sus iteraciones, estado del DETAIL, y la función que modifica el DETAIL SETDETAIL */}  
         {detail.length === 0 ? 

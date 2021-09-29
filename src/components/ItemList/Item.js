@@ -3,9 +3,7 @@ import React, { useState } from 'react';
 //pasamos las props de itemlist
 const Item = ({prodSelect,detail,setDetail,prodTienda})=> {
 
-
     const [count,setCount] = useState(0)
-
     const sumar =()=>{
         if(count === parseInt(stock)){
             alert("No hay mas stock")
@@ -13,19 +11,14 @@ const Item = ({prodSelect,detail,setDetail,prodTienda})=> {
             setCount(count + 1)
         }
     }
-
     const restar = () =>{
         if(count <= 0){
         }else{
             setCount(count -1)
         }
     }
-
     // const [count, setCount] = useState(0)
-    
     // const stock = 5;
-   
-
     //los declaro para después a la horar de pasarlos en el return no tengo que poenr prodSelect.
     const {name, description, price, images, id,stock} = prodSelect
 
@@ -40,6 +33,7 @@ const Item = ({prodSelect,detail,setDetail,prodTienda})=> {
 
     const deteleDetail = (id) => {
         const prodTienda = detail.filter(prodSelect => prodSelect.id !== id)
+        setDetail(prodTienda)
     }
 
     return(
@@ -54,6 +48,7 @@ const Item = ({prodSelect,detail,setDetail,prodTienda})=> {
                             <button type="button" className="btn btn-primary" onClick={ ()=>seeDetail(id) } > Ver Producto</button>
 
                         ) : ( <div>
+                                <button type="button" className="btn btn-primary" onClick={ ()=>deteleDetail(id) } >Cerrar</button>
                                 <h3>cantidad {count} </h3>
                                 <button className="btn btn-secundary" onClick={sumar}>+1</button>
                                 <button className="btn btn-secundary" onClick={restar} >-1</button>

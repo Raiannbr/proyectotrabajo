@@ -1,9 +1,9 @@
-import { Context, useContext } from "react";
+// import { Context, useContext } from "react";
 
-const Cart = useContext
+// const Cart = useContext
 
-const CartContex = ()=> {
-    return
-}
+// const CartContex = ()=> {
+//     return
+// }
 
-export default CartContex
+// export default CartContex

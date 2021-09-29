@@ -1,9 +1,9 @@
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
+import ItemDetail from './components/ItemDetail/ItemDetail';
 // import { useState } from 'react';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import Categories from './components/Categories/Categories';
-import CartContex from './CartContext/CartContex';
 import {BrowserRouter, Route, Switch, } from 'react-router-dom'
 
 function App() {
@@ -16,7 +16,9 @@ function App() {
         <NavBar/>
         <Switch>
             <Route exact path = "/" component = {ItemListContainer} />
-            <Route exact path = "/Productos" component = {Categories}/>
+            <Route exact path = '/productos/categoria/:CategoriaByID' component = {Categories}/>
+            <Route exact path = '/productos/detalles/:detalleByID' component = {ItemDetail}/>
+
         </Switch>
 
         {/* <ItemListContainer/> */}
